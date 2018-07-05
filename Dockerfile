@@ -1,3 +1,3 @@
-FROM nginx:1.13
+FROM nginx:stable
 
 COPY nginx.conf /etc/nginx/nginx.conf
